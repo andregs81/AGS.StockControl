@@ -19,8 +19,8 @@ namespace AGS.StockControl.Domain.Entities
         }
 
         public Category Category { get; private set; }
-        public Codes ProductCodes { get; set; }
-        public DescriptionProduct DescriptionProduct { get; set; }
+        public Codes ProductCodes { get; private set; }
+        public DescriptionProduct DescriptionProduct { get; private set; }
 
         public virtual IReadOnlyCollection<Units> Units { get { return units.ToArray(); } }
 
@@ -30,5 +30,9 @@ namespace AGS.StockControl.Domain.Entities
                 units.Add(unit);
         }
 
+        public override string ToString()
+        {
+            return $"{ProductCodes.InternalCode} {DescriptionProduct.Description}";
+        }
     }
 }

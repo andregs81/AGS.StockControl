@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{948CDECE-4CA3-4278-919C-B23CE174E771}"
 EndProject
@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{368376
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{15D68D50-1A18-4266-AAE7-DC877BDF785A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGS.StockControl.Domain", "src\AGS.StockControl.Domain\AGS.StockControl.Domain.csproj", "{5F15E373-4634-4E01-8917-297B92D5C7E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGS.StockControl.Domain", "src\AGS.StockControl.Domain\AGS.StockControl.Domain.csproj", "{5F15E373-4634-4E01-8917-297B92D5C7E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGS.StockControl.Shared", "src\AGS.StockControl.Shared\AGS.StockControl.Shared.csproj", "{A51C4566-B884-4697-9E52-005B3E1A5A32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGS.StockControl.Shared", "src\AGS.StockControl.Shared\AGS.StockControl.Shared.csproj", "{A51C4566-B884-4697-9E52-005B3E1A5A32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGS.StockControl.Tests", "src\AGS.StockControl.Tests\AGS.StockControl.Tests.csproj", "{31E271A0-87DA-40EE-A430-446331E32B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGS.StockControl.Tests", "src\AGS.StockControl.Tests\AGS.StockControl.Tests.csproj", "{31E271A0-87DA-40EE-A430-446331E32B93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
